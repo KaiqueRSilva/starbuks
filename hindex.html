@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Starbuks Website Lading Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="./assets/logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just Coffee<br>It's <span>Starbuks</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, nihil libero quasi saepe repellendus
+                    voluptatum. Iusto quam dolorem at voluptates! Dolore ratione omnis porro, dolor commodi consectetur
+                    esse eum. Quod.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="./assets/img1.png" class="starbucks">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./assets/thumb1.png" onclick="imgSlider ('./assets/img1.png');chageCircleColor('#01743')"></li>
+            <li><img src="./assets/thumb2.png" onclick="imgSlider('./assets/img2.png');chageCircleColor('#eb7495')"></li>
+            <li><img src="./assets/thumb3.png" onclick="imgSlider('./assets/img3.png');chageCircleColor('#d752b1')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="./assets/facebook.png"></a></li>
+            <li><a href="#"><img src="./assets/instagram.png"></a></li>
+            <li><a href="#"><img src="./assets/twitter.png"></a></li>
+        </ul>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
